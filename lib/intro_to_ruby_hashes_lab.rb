@@ -1,17 +1,17 @@
 def new_hash
-  new_hash = Hash.new
+  Hash.new
 end
 
 def my_hash
-  my_hash = {:cat => "Sylvester", :dog => "Snoopy"}
+  {:cat => "Sylvester", :dog => "Snoopy"}
 end
 
 def pioneer
-  pioneer_hash = {:name => "Grace Hopper"}
+  {:name => "Grace Hopper"}
 end
 
 
 def id_hash_generator(number)
-  id_hash_generator = Hash.new
-  id_hash_generator[:id] = (number)
+
+  { :id => number }
 end
